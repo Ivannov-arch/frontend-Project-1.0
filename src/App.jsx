@@ -54,7 +54,10 @@ const navigate = useNavigate();
           <h1>Redux Counter</h1>
                 <h2 className="my-5 text-6xl">{reduxCount}</h2>
 
-          <button onClick={logout} className='bg-gray-900'>Log out</button>
+          <div className='*:mx-2'>
+            <button onClick={logout} className='bg-gray-900'>Log out</button>
+            <button onClick={() => window.history.back()} className="text-indigo-600">Back</button>
+          </div>
         </div>
 
       </div>
