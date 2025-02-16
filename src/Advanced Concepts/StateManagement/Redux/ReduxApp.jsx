@@ -21,8 +21,9 @@ const navigate = useNavigate()
     //   };
 
     return (
-        <div className="mt-12 text-center"> <div className="*:mx-4 my-6 *:my-3">
-        <button onClick={() => navigate('/')} className="text-indigo-600">Home</button>
+        <div className="mt-12 text-center"> 
+            <div className="*:mx-4 my-6 *:my-3">
+                <button onClick={() => navigate('/')} className="text-indigo-600">Home</button>
                 <button onClick={() => window.history.back()} className="text-indigo-600">Back</button>
             </div>
 

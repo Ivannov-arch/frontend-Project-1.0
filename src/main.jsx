@@ -36,6 +36,11 @@ const UseCustomHooks = React.lazy(() => import('./Advanced Concepts/CustomHooks/
 const ErrorBoundaryApp = React.lazy(() => import('./Advanced Concepts/ErrorBoundaries/ErrorBoundaryApp.jsx'))
 
 const PerformanceOptimization = React.lazy(() => import('./Pages/PerformancesNav.jsx'))
+const ReactMemo = React.lazy(() => import('.//Advanced Concepts/PeformanceOptimization/ReactMemo.jsx'))
+const UseMemo = React.lazy(() => import('.//Advanced Concepts/PeformanceOptimization/UseMemo.jsx'))
+const UseCallback = React.lazy(() => import('.//Advanced Concepts/PeformanceOptimization/UseCallback.jsx'))
+const ReactWindow = React.lazy(() => import('./Advanced Concepts/PeformanceOptimization/ReactWindow.jsx'))
+
 
 const StateManagers = React.lazy(() => import('./Pages/StateManagersNav.jsx'))
 
@@ -164,6 +169,22 @@ const router = createBrowserRouter([
   {
     path: '/performance-optimization',
     element: <PerformanceOptimization/>
+  },
+  {
+    path: '/performances/react-memo',
+    element: <ReactMemo/>
+  },
+  {
+    path: '/performances/use-memo',
+    element: <UseMemo/>
+  },
+  {
+    path: '/performances/use-callback',
+    element: <UseCallback/>
+  },
+  {
+    path: '/performances/react-window',
+    element: <ReactWindow/>
   },
   {
     path: '/state-managers',
