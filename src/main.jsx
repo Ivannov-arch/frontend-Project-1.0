@@ -39,7 +39,7 @@ const PerformanceOptimization = React.lazy(() => import('./Pages/PerformancesNav
 const ReactMemo = React.lazy(() => import('.//Advanced Concepts/PeformanceOptimization/ReactMemo.jsx'))
 const UseMemo = React.lazy(() => import('.//Advanced Concepts/PeformanceOptimization/UseMemo.jsx'))
 const UseCallback = React.lazy(() => import('.//Advanced Concepts/PeformanceOptimization/UseCallback.jsx'))
-const ReactWindow = React.lazy(() => import('./Advanced Concepts/PeformanceOptimization/ReactWindow.jsx'))
+const ReactWindow = React.lazy(() => import('./Advanced Concepts/PeformanceOptimization/ReactWindoww.jsx'))
 // 
 
 
